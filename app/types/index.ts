@@ -14,6 +14,9 @@ export type Issue = {
   labels: string[]
   comments_count: number
   pull_requests_count: number
+  license:any
+  has_pull_requests: any
+  pr_status: string
 }
 
 export type LoaderData = {
